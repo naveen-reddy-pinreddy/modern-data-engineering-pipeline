@@ -7,6 +7,12 @@ This repo is an **end-to-end data engineering project** that matches what compan
 - **Data quality checks** with **pytest**
 - **GitHub Actions CI** to run tests on every push
 
+- ## Architecture
+
+The following diagram shows the end-to-end data pipeline architecture.
+
+![Pipeline Architecture](images/architecture.png)
+
 ## What it builds
 - `bronze_weather_raw` (raw hourly API data)
 - `silver_weather_hourly` (cleaned, typed, deduped)
